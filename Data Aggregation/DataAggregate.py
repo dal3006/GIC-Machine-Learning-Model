@@ -869,10 +869,10 @@ def create_rates(wb):
     return dict
 
 
-def main(input_file_path = 'C:/Users/e-sshen/Desktop/GIC Data/FarhanExampleData.csv',
-         holder_file_path = 'C:/Users/e-sshen/Desktop/GIC Data/AccountHolderExample.csv',
-         sav_file_path = 'C:/Users/e-sshen/Desktop/GIC Data/FarhanPaymentSAV.csv',
-         rates_file_path = 'C:/Users/e-sshen/Desktop/GIC Data/Competitor Rate Sheet 2019.xlsx'): 
+def main(input_file_path = 'C:/Users/e-fkamal/Desktop/GIC Data/FarhanExampleData.csv',
+         holder_file_path = 'C:/Users/e-fkamal/Desktop/GIC Data/AccountHolderExample.csv',
+         sav_file_path = 'C:/Users/e-fkamal/Desktop/GIC Data/FarhanPaymentSAV.csv',
+         rates_file_path = 'C:/Users/e-fkamal/Desktop/GIC Data/Competitor Rate Sheet 2019.xlsx'): 
     start_time = time.time()
     
     holders = pd.read_csv(holder_file_path)
